@@ -1,0 +1,46 @@
+/* img{
+    display: block;
+    margin: auto;
+} */
+
+.test{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    backdrop-filter: 2px;
+}
+.item{
+    background-color:rgb(228, 212, 192,0.2)
+}
+.item h1{
+    color:chartreuse
+}
+.item{
+    background-color: rgb(72, 76, 76);
+}
+.content img{
+    margin-left: 1050px;
+    margin-top: 50px;
+}
+.item p{
+    color: white;
+}
+
+.bold-text{
+    font-weight: bold;
+    color: #980209;
+}
+.t1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.card{
+    border: none;
+}
+
+.card-txt{
+    font-weight: bold;
+    font-style: italic;
+}

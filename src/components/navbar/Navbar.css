@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display&family=Roboto:wght@300&display=swap');
+nav{
+    font-family:'Abril Fatface', serif;
+    font-size: 1.5rem;
+    background-color: rgb(119, 120, 116);
+    /* box-shadow: 1px,-1px,rgb(21, 18, 18); */
+   
+}
+.active .icon1,.active.icon2{
+    color:rgb(187, 161, 58);
+    text-shadow:1px 1px 1px white ;
+}

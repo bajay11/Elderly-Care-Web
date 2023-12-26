@@ -1,0 +1,13 @@
+.card-img-top{
+    width: 400px;
+    height: 300px;
+   
+    
+    transition: transform 0.1s;
+
+}
+.card-img-top:hover{
+    img:hover {
+        transform: scale(1.1); /* Scale the image by 10% on hover */
+    }
+}
