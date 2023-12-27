@@ -4,9 +4,9 @@ const {CloudinaryStorage}=require('multer-storage-cloudinary')
 
 // configuration of cloudinary
 cloudinary.config({
-    cloud_name:"db4jcgemn",
-    api_key:"349259525916328",
-    api_secret:"Rk1LL5u2cBGj8soXVztmrIgg_2k"
+    cloud_name:"*******",
+    api_key:"********",
+    api_secret:"*********"
 })
 
 // configure cloudinary storage
