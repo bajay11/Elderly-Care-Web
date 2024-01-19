@@ -2,7 +2,7 @@
 // import exp module
 const exp=require("express");
 const app=exp();
-app.listen(8500,()=>{
+app.listen(xxxxx,()=>{
     console.log("listening on port number 8500");
 })
 
@@ -16,7 +16,7 @@ app.use(exp.static(path.join(__dirname,"./build")));
 
 const mclient=require("mongodb").MongoClient
 
-mclient.connect("mongodb://127.0.0.1:27017")
+mclient.connect("xxxxxxx")
 .then((dbRef)=>{
         const dbObj=dbRef.db("userdb");
         const userCollectionObj=dbObj.collection("userscollection");
