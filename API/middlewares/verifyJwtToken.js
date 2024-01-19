@@ -14,7 +14,7 @@ const verifyJwtToken=(req,res,next)=>{
         const Token=bearerToken.split(" ")[1];//bearer token consists of "bearer token" and i want only token
         //verify the token
         try{
-            jwt.verify(Token,"abcdefdfdf");
+            jwt.verify(Token,"xxxxxxx");
             next();
         }
         catch(err){
